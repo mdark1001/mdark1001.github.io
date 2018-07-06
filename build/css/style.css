@@ -124,18 +124,28 @@ li.active > a{
   flex-wrap: wrap;
   flex-direction: row;
 }
+.transition{
+  transition: .3s;
+}
 .icon-bg{
   display: inline-block;
   margin: 3px !important;
   border: 1px solid #4a8e7fa3;
   border-radius: 50%;
   padding: 10px;
-  opacity: 0.3;
+
 
 }
-.icon-bg:hover{
-    opacity:1;
+.rotate{
+  opacity: 0.3;
 }
+.rotate:hover {
+    opacity:1;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+
 
 
 /*# sourceMappingURL=style.css.map */
